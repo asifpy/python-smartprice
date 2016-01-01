@@ -60,5 +60,13 @@ SMARTPRICE_ATTRS = {
     'sony_laptops': 'sony-laptop',
     'toshiba_laptops': 'toshiba-laptop',
     'macbooks': 'apple-laptop',
-    'samsung_laptops': 'samsung-laptop'
+    'samsung_laptops': 'samsung-laptop',
+
+    'tvs': 'tv-price',
+    'samsung_tvs': 'samsung-tv',
+    'sony_tvs': 'sony-tv',
+    'lg_tvs': 'lg_tv',
+    'panasonic_tvs': 'panasonic-tv',
+    'sharp_tvs': 'sharp-tv'
+
 }
