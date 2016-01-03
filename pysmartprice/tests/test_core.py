@@ -12,12 +12,12 @@ class TestSmartPrice(unittest.TestCase):
         self.smartprice = SmartPrice()
         # self.generate_soupelement_tests()
 
-    # def generate_soupelement_tests(self):
-    #     """Generate test methods to check valid URLS"""
-    #     for key, url in constants.URL_MAPPER.iteritems():
-    #         testmethodname = 'test_fn_{0}'.format(key)
-    #         testmethod = lambda self: self.assertEqual(key, key)
-    #         setattr(TestSmartPrice, testmethodname, testmethod)
+    def generate_soupelement_tests(self):
+        """Generate test methods to check valid URLS"""
+        for key, url in constants.URL_MAPPER.iteritems():
+            testmethodname = 'test_fn_{0}'.format(key)
+            testmethod = lambda self: self.assertEqual(key, key)
+            setattr(TestSmartPrice, testmethodname, testmethod)
 
     def test_webexists(self):
         self.assertEqual(

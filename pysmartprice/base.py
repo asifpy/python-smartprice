@@ -1,4 +1,4 @@
-from pysmartprice.parser import PriceListParser
+from pysmartprice.price_parser import PriceListParser
 from pysmartprice.constants import SMARTPRICE_ATTRS
 
 
