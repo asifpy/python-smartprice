@@ -9,6 +9,12 @@ Introduction
 
 MySmartPrice_ is a platform which provided best seller price across a wide array of categories that include Mobiles, Electronics, Computers, Fashion and Lifestyle, Cameras, Books, Appliances and Personal Care.
 
+Installation
+------------
+
+``pip install python-smartprice``
+
+
 Prerequisites
 -------------
 - Requests
