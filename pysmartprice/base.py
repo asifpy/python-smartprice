@@ -1,11 +1,14 @@
-from pysmartprice.price_parser import PriceListParser
+from pysmartprice.smartparser import(
+    PriceListParser,
+    SearchParser
+)
 from pysmartprice.constants import SMARTPRICE_ATTRS
 
 
 class SmartPrice(object):
 
-    def parser_results(self, product):
-        parser = PriceListParser(product)
+    def parser_results(self, product, **kwargs):
+        parser = PriceListParser(product, **kwargs)
         return parser.price_results
 
     def __getattr__(self, attr):
@@ -15,3 +18,8 @@ class SmartPrice(object):
 
         setattr(self, attr, self.parser_results(SMARTPRICE_ATTRS[attr]))
         return getattr(self, attr)
+
+    def search(self, search_key):
+        params = dict(s=search_key, page=1)
+        parser = SearchParser('search', **params)
+        return parser.price_results

@@ -32,7 +32,10 @@ URL_MAPPER = {
     'samsung-tv': 'electronics/pricelist/samsung-tv-price-list-in-india.html',
     'sony-tv': 'electronics/pricelist/sony-tv-price-list-in-india.html',
     'lg-tv': 'electronics/pricelist/lg-tv-price-list-in-india.html',
+    'panasonic-tv': 'electronics/pricelist/panasonic-tv-price-list-in-india.html',
+    'sharp-tv': 'electronics/pricelist/sharp-tv-price-list-in-india.html',
 
+    'search': 'msp/search/msp_search_new.php',
 }
 
 
