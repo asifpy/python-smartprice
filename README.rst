@@ -24,6 +24,9 @@ Prerequisites
 Quickstart
 ----------
 
+GET PRICE LIST
+--------------
+
 .. code-block:: python
 
   >>> from pysmartprice.base import SmartPrice
@@ -59,6 +62,31 @@ Quickstart
     'title': u'Samsung Galaxy J7',
     'url': 'http://www.mysmartprice.com/mobile/samsung-galaxy-j7-msp7178'
   }
+
+
+SEARCH PRICE LIST
+-----------------
+
+.. code-block:: python
+  
+  >>> from pysmartprice.base import SmartPrice
+  >>> smartprice = SmartPrice()
+  
+  >>> smartprice.search('SAMSUNG')
+  Out[4]: [<pysmartprice.results.SmartPriceResult at 0x102b05990>,
+  <pysmartprice.results.SmartPriceResult at 0x100d36850>,
+  <pysmartprice.results.SmartPriceResult at 0x1024129d0>,
+  <pysmartprice.results.SmartPriceResult at 0x102412b10>,
+  <pysmartprice.results.SmartPriceResult at 0x102412f90>,
+  <pysmartprice.results.SmartPriceResult at 0x102412fd0>,
+  <pysmartprice.results.SmartPriceResult at 0x102412e10>,
+  <pysmartprice.results.SmartPriceResult at 0x102412d50>,
+  <pysmartprice.results.SmartPriceResult at 0x102412c50>,
+  ...]
+  
+  In [3]: len(s.search('SAMSUNG'))
+  Out[3]: 1012
+  
 
 
 
