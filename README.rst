@@ -9,6 +9,7 @@ Introduction
 
 MySmartPrice_ is a platform which provided best seller price across a wide array of categories that include Mobiles, Electronics, Computers, Fashion and Lifestyle, Cameras, Books, Appliances and Personal Care.
 
+
 Installation
 ------------
 
@@ -53,16 +54,15 @@ GET PRICE LIST
   >>> samsung_mobile.best_price
   Out[8]: '14,299'
   
-  >>> samsung_mobile.__dict__
+  >>> samsung_mobile.dumptojson
   Out[9]: 
-  {
-    'best_price': u'14,299',
-    'img': 'http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7178-7-thumb.jpg',
-    'product_id': '7178',
-    'title': u'Samsung Galaxy J7',
-    'url': 'http://www.mysmartprice.com/mobile/samsung-galaxy-j7-msp7178'
-  }
-
+        '{
+          "url": "http://www.mysmartprice.com/mobile/htc-desire-820-g-plus-msp7467",
+          "best_price": "13,592",
+          "product_id": "7467",
+          "img": "http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7467-7-thumb.jpg",
+          "title": "\\nHTC Desire 820G Plus\\n"
+        }'
 
 SEARCH PRICE LIST
 -----------------
