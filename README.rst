@@ -1,3 +1,17 @@
+
+|Build|_ |CodeRate|_ |pypi|_
+
+.. |Build| image:: https://scrutinizer-ci.com/g/asifpy/python-smartprice/badges/build.png?b=master
+.. _Build: https://scrutinizer-ci.com/g/asifpy/python-smartprice/
+
+.. |CodeRate| image:: https://scrutinizer-ci.com/g/asifpy/python-smartprice/badges/quality-score.png?b=master
+.. _CodeRate: https://scrutinizer-ci.com/g/asifpy/python-smartprice/
+
+.. |pypi| image:: https://badge.fury.io/py/python-smartprice.svg
+.. _pypi: https://badge.fury.io/py/python-smartprice
+
+
+
 =================
 python-smartprice
 =================
