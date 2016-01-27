@@ -42,6 +42,8 @@ Quickstart
 GET PRICE LIST
 --------------
 
+Check all the below Supported Attributes
+
 .. code-block:: python
 
   >>> from pysmartprice.base import SmartPrice
@@ -158,13 +160,33 @@ GET SELLERS DETAILS
 
 Supported attributes
 --------------------
+Get the best prices for the below attributes
 
-:mobiles: Get best prices for ALL mobiles
-:samsung_mobiles: Get best prices for all Samsung mobiles
-:nokia_mobiles: Get best prices for all Nokia mobiles
-:micromax_mobiles: Get best prices for all Micromax mobiles
-:iphones: Get best prices for all IPhones
-:htc_mobiles: Get best prices for all HTC mobiles
+- mobiles
+- samsung_mobiles
+- nokia_mobiles
+- micromax_mobiles
+- iphones
+- htc_mobiles
+- tablets
+- samsung_tablets
+- lenovo_tablets
+- micromax_tablets
+- apple_ipads
+- laptops
+- hp_laptops
+- dell_laptops
+- lenovo_laptops
+- sony_laptops
+- toshiba_laptops
+- macbooks
+- samsung_laptops
+- tvs
+- samsung_tvs
+- sony_tvs
+- lg_tvs
+- panasonic_tvs
+- sharp_tvs
 
 
 .. _MySmartPrice: http://www.mysmartprice.com/
