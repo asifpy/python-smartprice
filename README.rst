@@ -42,7 +42,7 @@ Quickstart
 GET PRICE LIST
 --------------
 
-Check all the below Supported Attributes
+Check all the below `Supported attributes`_.
 
 .. code-block:: python
 
