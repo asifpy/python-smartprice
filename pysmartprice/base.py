@@ -1,6 +1,7 @@
 from pysmartprice.smartparser import(
     PriceListParser,
-    SearchParser
+    SearchParser,
+    SellerParser
 )
 from pysmartprice.constants import SMARTPRICE_ATTRS
 
@@ -23,3 +24,14 @@ class SmartPrice(object):
         params = dict(s=search_key, page=1)
         parser = SearchParser('search', **params)
         return parser.price_results
+
+    def sellers(self, product):
+        search_res = self.search(product)
+        products = [
+            res for res in search_res if product.lower() in res.title.lower()]
+
+        for product in products:
+            seller_parser = SellerParser(product.url)
+            setattr(product, 'sellers', seller_parser.result)
+
+        return products

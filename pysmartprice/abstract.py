@@ -82,3 +82,4 @@ class ParserMixin(object):
         first_page = int(page_range[0].text)
         last_page = int(page_range[1].text)
         return first_page, last_page
+

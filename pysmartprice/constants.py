@@ -1,7 +1,6 @@
 SMARTPRICE_WEB_URL = 'http://www.mysmartprice.com/'
 
 URL_MAPPER = {
-
     # mobiles
     'mobile-price': 'mobile/pricelist/mobile-price-list-in-india.html',
     'samsung-mobile': 'mobile/pricelist/samsung-mobile-price-list-in-india.html',
