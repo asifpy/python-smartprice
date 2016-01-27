@@ -70,13 +70,11 @@ GET PRICE LIST
   
   >>> samsung_mobile.dumptojson
   Out[9]: 
-        '{
-          "url": "http://www.mysmartprice.com/mobile/htc-desire-820-g-plus-msp7467",
-          "best_price": "13,592",
-          "product_id": "7467",
-          "img": "http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7467-7-thumb.jpg",
-          "title": "\\nHTC Desire 820G Plus\\n"
-        }'
+    {u'best_price': u'14,664',
+     u'img': u'http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7178-7-thumb.jpg',
+     u'product_id': u'7178',
+     u'title': u'\nSamsung Galaxy J7\n',
+     u'url': u'http://www.mysmartprice.com/mobile/samsung-galaxy-j7-msp7178'}
 
 SEARCH PRICE LIST
 -----------------
