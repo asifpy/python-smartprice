@@ -101,6 +101,50 @@ SEARCH PRICE LIST
   In [3]: len(s.search('SAMSUNG'))
   Out[3]: 1012
   
+GET SELLERS DETAILS
+-------------------
+
+.. code-block:: python
+
+  >> from pysmartprice.base import SmartPrice
+  >> smartprice = SmartPrice()
+  
+  >> results = smartprice.sellers('Samsung Galaxy J2')
+  >> results
+  Out[4]: [<pysmartprice.results.SmartPriceResult at 0x109eca590>]
+  
+  In [5]: results[0].dumptojson
+  Out[5]: 
+    {'best_price': '8,199',
+     'img': 'http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7448-6-thumb.jpg',
+     'product_id': '7448',
+     'title': 'Samsung Galaxy J2',
+     'sellers': [
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/syberplace_store.png',
+         'name': u'\nSeller:\nSyberplace\n',
+         'price': u'8,199',
+         'rating': u'5/5'},
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/amazon_store.png',
+         'name': u'\nSeller:\nAmazon Seller\n',
+         'price': u'8,330',
+         'rating': u'4.5/5'},
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/ebay_store.png',
+         'name': u'\nSeller:\nBberry.stores\n',
+         'price': u'8,215',
+         'rating': u'5/5'},
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/paytm_store.png',
+         'name': u'\nSeller:\nRYAISHA RETAILS PVT LTD\n',
+         'price': u'8,496',
+         'rating': u'3.2/5'},
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/indiatimes_store.png',
+         'name': u'\nSeller:\nIndiatimes\n',
+         'price': u'8,314',
+         'rating': u'2.5/5'},
+        {'logo': u'http://c223968.r68.cf1.rackcdn.com/flipkart_store.png',
+         'name': u'\nSeller:\nWS Retail\n',
+         'price': u'8,499',
+         'rating': u'4.2/5'}],
+    'url': 'http://www.mysmartprice.com/mobile/samsung-galaxy-j2-msp7448'}
 
 
 
