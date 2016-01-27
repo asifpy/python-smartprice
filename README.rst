@@ -101,6 +101,16 @@ SEARCH PRICE LIST
   In [3]: len(s.search('SAMSUNG'))
   Out[3]: 1012
   
+  In [3]: results = s.search('SAMSUNG')
+  
+  In [4]: results[0].dumptojson
+  Out[4]: 
+    {u'best_price': u'14,664',
+     u'img': u'http://c0028545.cdn1.cloudfiles.rackspacecloud.com/7178-7-thumb.jpg',
+     u'product_id': u'7178',
+     u'title': u'\nSamsung Galaxy J7\n',
+     u'url': u'http://www.mysmartprice.com/mobile/samsung-galaxy-j7-msp7178'}
+  
 GET SELLERS DETAILS
 -------------------
 
