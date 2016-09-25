@@ -98,10 +98,10 @@ SEARCH PRICE LIST
   <pysmartprice.results.SmartPriceResult at 0x102412c50>,
   ...]
   
-  In [3]: len(s.search('SAMSUNG'))
+  In [3]: len(smartprice.search('SAMSUNG'))
   Out[3]: 1012
   
-  In [3]: results = s.search('SAMSUNG')
+  In [3]: results = smartprice.search('SAMSUNG')
   
   In [4]: results[0].dumptojson
   Out[4]: 
