@@ -1,4 +1,4 @@
-from pysmartprice.smartparser import(
+from pysmartprice.smartparser import (
     PriceListParser,
     SearchParser,
     SellerParser

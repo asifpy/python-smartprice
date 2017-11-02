@@ -24,5 +24,6 @@ setup(
         'requests>=2.5.3',
         'beautifulsoup4>4.4.0',
         'pytest>=2.8.5',
+        'lxml>=4.1.0'
     ],
 )

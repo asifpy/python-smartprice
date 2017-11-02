@@ -25,7 +25,7 @@ class SmartPriceBase(object):
                 # sort_keys=True,
                 indent=4,
                 separators=(',', ': '))
-            )
+        )
 
 
 class SmartPriceResult(SmartPriceBase):

@@ -1,4 +1,4 @@
-from pysmartprice.abstract import(
+from pysmartprice.abstract import (
     BaseParser,
     ParserMixin
 )
@@ -30,7 +30,7 @@ class SellerParser(object):
         self.result = [
             SmartPriceSeller(self.get_product_attrs(item))
             for item in self.products_html
-            ]
+        ]
 
     def get_product_attrs(self, item):
         return dict(
